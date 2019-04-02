@@ -1,0 +1,152 @@
+.box-2 {
+    display: none;
+}
+.flex-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+/* .box {
+    dis
+} */
+.box {
+    display: flex;
+    flex-direction: row;
+}
+.box div {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width: 69rem) {
+    #pay {
+        height: 49rem;
+    }
+    .pay-flex {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .pay-2 {
+        width: 100%;
+        align-self: flex-start;
+        margin-top: -3rem;
+    }
+    .pay-1 {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pay-1 p {
+        width: 100%;
+    }
+    .card {
+        width: 60%;
+    }
+    
+}
+
+@media only screen and (max-width: 51rem) {
+    #what {
+        height: 40rem;
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .box {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+}
+@media only screen and (max-width: 38rem) {
+    .card {
+        width: 70%;
+        height: 100%;
+    }
+
+}
+@media only screen and (max-width: 36rem) {
+    .card {
+        width: 70%;
+        height: 100%;
+    }
+    #mainHeader {
+        display: flex;
+        flex-direction: column;
+        padding: 1.2rem;
+    }
+    #mainHeader ul li {
+        padding-top: 1rem;
+    }
+    u li:not(:last-child) {
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 34rem) {
+    .card {
+        width: 85%;
+        height: 100%;
+    }
+    .btn-md {
+        width: 27%;
+        padding: .4rem 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 27rem) {
+    #mainHeader ul {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    #mainHeader ul li:last-child {
+        align-self: flex-start;
+    }
+    #mainHeader ul li:not(:last-child) {
+        display: none;
+    }
+    #mainFooter p {
+        text-align: center;
+    }
+    .btn-md {
+        height: 15%;
+        padding: .1rem .1rem;
+        margin-bottom: 2rem;
+    }
+    .btn-lg {
+        width: 40%;
+    }
+    #what {
+        height: 43rem;
+    }
+    .card {
+        width: 100%;
+    }
+    #pay {
+        padding: 1.2rem 2rem;
+    }
+    .pay-1 {
+        margin-top: -2rem;
+    }
+
+}
+
+@media only screen and (max-width: 21rem) {
+   #what {
+       height: 47rem;
+   }
+}
